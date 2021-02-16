@@ -12,8 +12,8 @@ echo "Installation completed."
 # echo "Cleaning..."
 # rm *
 # cd .. ; rmdir Mkurl
+# echo "Cleaning completed. You can delete this folder."
 
-echo "Cleaning completed. You can delete this folder."
 echo "To remove the application simply write into a terminal:"
 echo "\$ sudo rm /usr/bin/mkurl"
 
