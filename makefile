@@ -9,7 +9,7 @@ install:
 
 configure: 
 	mkdir $HOME/Hyperlinks
-    mkurl Icons https://www.flaticon.com/
+	mkurl Icons https://www.flaticon.com/
 
 uninstall:
 	rm /usr/bin/mkurl
