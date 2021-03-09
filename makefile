@@ -11,5 +11,6 @@ configure:
 	mkdir $HOME/Hyperlinks
 	mkurl Icons https://www.flaticon.com/
 
+# Run as root
 uninstall:
 	rm /usr/bin/mkurl
