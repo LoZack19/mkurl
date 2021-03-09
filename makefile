@@ -8,9 +8,10 @@ install:
 	rm mkurl
 
 configure: 
-	mkdir $HOME/Hyperlinks
+	mkdir $(HOME)/Hyperlinks
 	mkurl Icons https://www.flaticon.com/
 
 # Run as root
 uninstall:
 	rm /usr/bin/mkurl
+	echo "The $(HOME)/Hyperlinks folder has to be deleted by hand"
