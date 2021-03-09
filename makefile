@@ -7,5 +7,9 @@ install:
 	sudo install mkurl /usr/bin
 	rm mkurl
 
+configure: 
+	mkdir $HOME/Hyperlinks
+    mkurl Icons https://www.flaticon.com/
+
 uninstall:
 	rm /usr/bin/mkurl
