@@ -1,7 +1,7 @@
 # MKURL UTILITY
 Mkurl is a software for creating hyperlinks to websites that can be opened through a file manager. The syntax is simple and intuitive:  
 `$ mkurl [NAME] [LINK]`  
-It is possible to change the link inside a hyperlink by typing the same command with a different link. The hyperlink will be created in the current directory in .desktop format.
+It is possible to change the link inside a hyperlink by typing the same command with a different link. The hyperlink will be created in the current directory with a .desktop extention.
 
 ## Download
 1. Compiling the source: `$ gcc main.c -o mkurl`
