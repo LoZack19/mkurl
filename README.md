@@ -10,4 +10,4 @@ It is possible to change the link inside a hyperlink by typing the same command 
 
 ## Enviroment setup
 For the sake of cleanliness and clarity, and to make quick access to hyperlinks easier, we suggest creating a folder in the home directory to house them. Running `$ make configure` prepares this enviroment. Remember that the program will always generate hyperlinks in the current folder, unless a full path is entered instead of [NAME].  
-To run `$ make configured make sure you already installed the program.`
+To run `$ make configure` make sure you already installed the program.
